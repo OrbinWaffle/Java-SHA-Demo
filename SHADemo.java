@@ -98,6 +98,7 @@ public class SHADemo {
 	public static void main(String args[]) throws NoSuchAlgorithmException
 	{
 		if(args.length < 3) {
+			System.out.printf("Invalid args. Use: SHADemo [input file] [output file] [hash type]");
 			System.exit(0);
 		}
 		String inputFileName = args[0];
